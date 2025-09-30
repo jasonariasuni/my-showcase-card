@@ -1,4 +1,4 @@
-import { FileText, Video, Star, Award } from "lucide-react";
+import { FileText, Code2, Shield, Briefcase } from "lucide-react";
 
 const highlights = [
   {
@@ -7,18 +7,18 @@ const highlights = [
     color: "from-blue-500 to-cyan-500",
   },
   {
-    icon: Star,
-    label: "Top Projects",
+    icon: Code2,
+    label: "Projects",
     color: "from-purple-500 to-pink-500",
   },
   {
-    icon: Video,
-    label: "About Me",
+    icon: Shield,
+    label: "Cybersecurity",
     color: "from-orange-500 to-red-500",
   },
   {
-    icon: Award,
-    label: "Certifications",
+    icon: Briefcase,
+    label: "Experience",
     color: "from-green-500 to-emerald-500",
   },
 ];

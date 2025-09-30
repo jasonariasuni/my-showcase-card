@@ -23,20 +23,20 @@ const ProfileHeader = () => {
 
           {/* Profile Info */}
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">Your Name</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">Jason Arias</h1>
             <p className="text-muted-foreground text-lg mb-4">
-              Computer Science @ University | Aspiring Software Engineer
+              Computer Science @ VCU | Cybersecurity Concentration | Class of 2027
             </p>
 
             {/* Stats */}
             <div className="flex gap-8 justify-center md:justify-start mb-6">
               <div>
-                <span className="font-semibold text-lg">12</span>
+                <span className="font-semibold text-lg">5+</span>
                 <span className="text-muted-foreground ml-1">Projects</span>
               </div>
               <div>
                 <span className="font-semibold text-lg">3</span>
-                <span className="text-muted-foreground ml-1">Featured</span>
+                <span className="text-muted-foreground ml-1">Leadership</span>
               </div>
               <div>
                 <span className="font-semibold text-lg">2+</span>
@@ -46,14 +46,17 @@ const ProfileHeader = () => {
 
             {/* Bio */}
             <p className="text-foreground mb-6 max-w-2xl">
-              Passionate about building innovative solutions and creating
-              meaningful experiences through code. Always learning, always
-              growing. 🚀
+              CS student passionate about cybersecurity and web development. 
+              IT Committee Chair at DMC Organization. Skilled in Python, Java, 
+              JavaScript, and full-stack development. Always learning, always building. 🚀
             </p>
 
             {/* Action Buttons */}
             <div className="flex gap-3 justify-center md:justify-start flex-wrap">
-              <Button className="gradient-accent border-0">
+              <Button
+                className="gradient-accent border-0"
+                onClick={() => window.location.href = "mailto:ariasje@vcu.edu"}
+              >
                 <Mail className="mr-2 h-4 w-4" />
                 Contact Me
               </Button>

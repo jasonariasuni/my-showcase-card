@@ -1,35 +1,35 @@
 import PostCard from "./PostCard";
-import dashboardImg from "@/assets/project-dashboard.jpg";
-import panelImg from "@/assets/engineering-panel.jpg";
-import mobileImg from "@/assets/mobile-app.jpg";
+import dmcImg from "@/assets/dmc-it-committee.jpg";
+import ramdevImg from "@/assets/ramdev-webdev.jpg";
+import cyberImg from "@/assets/cybersecurity-project.jpg";
 
 const posts = [
   {
     id: 1,
-    image: dashboardImg,
-    title: "Personal Dashboard Project",
+    image: dmcImg,
+    title: "DMC IT Committee Chair",
     description:
-      "Built a full-stack analytics dashboard with real-time data visualization. Features include custom charts, user authentication, and responsive design.",
-    likes: 47,
-    tags: ["react", "typescript", "charts", "fullstack"],
+      "Leading the IT Committee for Developing Men of Color Organization. Overseeing all tech projects, fostering skill development, and ensuring smooth execution of initiatives that empower members.",
+    likes: 52,
+    tags: ["leadership", "IT", "mentorship", "VCU"],
   },
   {
     id: 2,
-    image: panelImg,
-    title: "DMC Engineering Panel Moderator",
+    image: ramdevImg,
+    title: "RamDev Web Development",
     description:
-      "Had the privilege of moderating a panel discussion on emerging technologies in software engineering. Great insights from industry leaders!",
-    likes: 63,
-    tags: ["speaking", "engineering", "leadership"],
+      "Building and enhancing websites as part of VCU's RamDev community. Collaborative projects using HTML, CSS, and JavaScript to create responsive and functional web applications.",
+    likes: 38,
+    tags: ["webdev", "javascript", "html", "css", "ramdev"],
   },
   {
     id: 3,
-    image: mobileImg,
-    title: "Mobile App Design",
+    image: cyberImg,
+    title: "Cybersecurity Projects",
     description:
-      "Designed and prototyped a mobile-first expense tracking app. Focus on intuitive UX and beautiful gradient design system.",
-    likes: 28,
-    tags: ["design", "mobile", "ux", "figma"],
+      "Exploring security concepts through VCU's Cybersecurity Club. Learning ethical hacking, network security, and best practices for protecting digital systems in today's connected world.",
+    likes: 45,
+    tags: ["cybersecurity", "security", "networking", "python"],
   },
 ];
 
