@@ -3,6 +3,7 @@ import HighlightsSection from "@/components/HighlightsSection";
 import PostFeed from "@/components/PostFeed";
 import SkillsSection from "@/components/SkillsSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import VolunteerSection from "@/components/VolunteerSection";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <HighlightsSection />
       <SkillsSection />
       <PostFeed />
+      <VolunteerSection />
       <ExperienceSection />
     </div>
   );

@@ -60,11 +60,17 @@ const ProfileHeader = () => {
                 <Mail className="mr-2 h-4 w-4" />
                 Contact Me
               </Button>
-              <Button variant="outline">
+              <Button 
+                variant="outline"
+                onClick={() => window.open("https://www.linkedin.com/in/jason-arias-0b6796292/", "_blank")}
+              >
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </Button>
-              <Button variant="outline">
+              <Button 
+                variant="outline"
+                onClick={() => window.open("https://github.com/jasonariasuni", "_blank")}
+              >
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
               </Button>

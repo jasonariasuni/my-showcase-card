@@ -2,10 +2,30 @@ import PostCard from "./PostCard";
 import dmcImg from "@/assets/dmc-it-committee.jpg";
 import ramdevImg from "@/assets/ramdev-webdev.jpg";
 import cyberImg from "@/assets/cybersecurity-project.jpg";
+import fitnessImg from "@/assets/fitness-app.jpg";
+import portfolioImg from "@/assets/portfolio-template.jpg";
 
 const posts = [
   {
     id: 1,
+    image: fitnessImg,
+    title: "AI Fitness & Nutrition App",
+    description:
+      "Collaborating with classmates to build a comprehensive fitness app with AI-powered health assistant. Features include calorie tracking, personalized workout plans, nutrition guidance, and intelligent meal recommendations.",
+    likes: 67,
+    tags: ["AI", "health-tech", "mobile-app", "team-project"],
+  },
+  {
+    id: 2,
+    image: portfolioImg,
+    title: "DMC Portfolio Template System",
+    description:
+      "As IT Committee Chair, led development of a GitHub-integrated portfolio website system enabling DMC students to create professional resumes using customizable templates. Streamlined the resume creation process for committee members.",
+    likes: 58,
+    tags: ["leadership", "webdev", "github", "templates"],
+  },
+  {
+    id: 3,
     image: dmcImg,
     title: "DMC IT Committee Chair",
     description:
@@ -14,7 +34,7 @@ const posts = [
     tags: ["leadership", "IT", "mentorship", "VCU"],
   },
   {
-    id: 2,
+    id: 4,
     image: ramdevImg,
     title: "RamDev Web Development",
     description:
@@ -23,7 +43,7 @@ const posts = [
     tags: ["webdev", "javascript", "html", "css", "ramdev"],
   },
   {
-    id: 3,
+    id: 5,
     image: cyberImg,
     title: "Cybersecurity Projects",
     description:
