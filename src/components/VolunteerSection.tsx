@@ -1,5 +1,6 @@
-import { Heart, Users } from "lucide-react";
+import { Heart, Users, GraduationCap } from "lucide-react";
 import engineeringPanelImg from "@/assets/engineering-panel.jpg";
+import volunteerImg from "@/assets/volunteer.jpg";
 
 const volunteerWork = [
   {
@@ -13,10 +14,18 @@ const volunteerWork = [
   {
     organization: "Jacob's Chance",
     role: "Volunteer",
-    image: engineeringPanelImg,
+    image: volunteerImg,
     description:
       "Volunteered with DMC's collaboration with Jacob's Chance, supporting inclusive programs that empower individuals aged 5-40 with developmental and intellectual disabilities through personal growth activities and community building.",
     icon: Heart,
+  },
+  {
+    organization: "SHPE at VCU",
+    role: "Active Member",
+    image: engineeringPanelImg,
+    description:
+      "Active member of the Society of Hispanic Professional Engineers, participating in resume reviews, elevator pitch exercises, and professional development workshops to prepare for excellence in the workplace.",
+    icon: GraduationCap,
   },
 ];
 
@@ -26,7 +35,7 @@ const VolunteerSection = () => {
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8 text-center">Volunteer Work</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {volunteerWork.map((volunteer, index) => {
             const Icon = volunteer.icon;
             return (
