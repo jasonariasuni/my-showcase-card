@@ -4,7 +4,7 @@ import ramdevImg from "@/assets/ramdev-webdev.jpg";
 import cyberImg from "@/assets/cybersecurity-project.jpg";
 import fitnessImg from "@/assets/fitness-app.jpg";
 import portfolioImg from "@/assets/portfolio-template.jpg";
-import engineeringPanelImg from "@/assets/engineering-panel.jpg";
+import shpeImg from "@/assets/shpe-vcu.jpg";
 
 const posts = [
   {
@@ -54,7 +54,7 @@ const posts = [
   },
   {
     id: 6,
-    image: engineeringPanelImg,
+    image: shpeImg,
     title: "SHPE at VCU",
     description:
       "Active member of the Society of Hispanic Professional Engineers, participating in resume reviews, elevator pitch exercises, and professional development workshops to prepare for excellence in the workplace.",
