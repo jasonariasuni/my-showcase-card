@@ -4,6 +4,7 @@ import ramdevImg from "@/assets/ramdev-webdev.jpg";
 import cyberImg from "@/assets/cybersecurity-project.jpg";
 import fitnessImg from "@/assets/fitness-app.jpg";
 import portfolioImg from "@/assets/portfolio-template.jpg";
+import engineeringPanelImg from "@/assets/engineering-panel.jpg";
 
 const posts = [
   {
@@ -50,6 +51,15 @@ const posts = [
       "Exploring security concepts through VCU's Cybersecurity Club. Learning ethical hacking, network security, and best practices for protecting digital systems in today's connected world.",
     likes: 45,
     tags: ["cybersecurity", "security", "networking", "python"],
+  },
+  {
+    id: 6,
+    image: engineeringPanelImg,
+    title: "SHPE at VCU",
+    description:
+      "Active member of the Society of Hispanic Professional Engineers, participating in resume reviews, elevator pitch exercises, and professional development workshops to prepare for excellence in the workplace.",
+    likes: 41,
+    tags: ["SHPE", "professional-development", "networking", "VCU"],
   },
 ];
 
